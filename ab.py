@@ -13,8 +13,8 @@ def sh(u,c):
         time.sleep(0.5)
         m = m+'\n'+i
         mg.edit_text(m)
-    time.sleep(4)
-    mg.edit_text("Bye Bye....")
+    time.sleep(3)
+    mg.edit_text("Hacked......Bye Bye")
     print(f"{u.message.from_user.username} Called Sh")
 def hlp(u,c):
     u.message.reply_text("Bot Chalaite Janena abar bot chalaite aise....vag shala")
