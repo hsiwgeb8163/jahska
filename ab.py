@@ -20,7 +20,7 @@ def hlp(u,c):
     u.message.reply_text("Bot Chalaite Janena abar bot chalaite aise....vag shala")
     print(f"{u.message.from_user.username} Called Help")
 
-upd = Updater("5691804740:AAFeTb9li1cpUkAkSO3pUtFDRa6LhvAkuj8", use_context=True)
+upd = Updater("5691718016:AAHdL1iSJV994xw2gv7qtzAyfwPEBYLXA5A", use_context=True)
 
 upd.dispatcher.add_handler(CommandHandler("start",stm))
 upd.dispatcher.add_handler(CommandHandler("sahos_thakle_ei_command_run_kor",sh))
